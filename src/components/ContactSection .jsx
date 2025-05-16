@@ -18,30 +18,31 @@ const ContactSection = () => {
         transition={{ duration: 1.5, ease: "easeOut" }}
       >
         <p>
-          The library provides a component named <strong>LoremIpsum</strong> and a function{" "}
-          <strong>loremIpsum</strong> to generate placeholder text.
+          Experienced front-end web developer with 2 years 5 months of hands-on
+          experience in JavaScript and React js Proficient in developing
+          interactive user interfaces, implementing state management using
+          Redux, and collaborating with backend teams to integrate frontend
+          components. Skilled in writing clean, modular code using JavaScript
+          ES6+ features and implementing responsive design principles using
+          CSS3. Strong team player with a keen eye for code quality, conducting
+          code reviews, and providing constructive feedback. Eager to leverage
+          skills and contribute to innovative web development projects.
         </p>
 
         <div className="flex gap-4 flex-wrap justify-center">
           <a
-            href="/DeepakJ.pdf"
+            href="/Deepak J.pdf"
             download
             className="transition text-white px-6 py-2 rounded-full text-sm sm:text-base hover:opacity-90"
             style={{
-              background: "linear-gradient(90deg, rgba(42,123,155,1) 0%, rgba(87,199,133,1) 50%, rgba(237,221,83,1) 100%)",
+              background:
+                "linear-gradient(90deg, rgba(42,123,155,1) 0%, rgba(87,199,133,1) 50%, rgba(237,221,83,1) 100%)",
             }}
           >
             Download CV
           </a>
 
-          <button
-            className="transition text-white px-6 py-2 rounded-full text-sm sm:text-base hover:opacity-90"
-            style={{
-              background: "linear-gradient(90deg, rgba(42,123,155,1) 0%, rgba(87,199,133,1) 50%, rgba(237,221,83,1) 100%)",
-            }}
-          >
-            View Project
-          </button>
+      
         </div>
       </motion.div>
     </section>
