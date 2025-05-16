@@ -69,7 +69,7 @@ const AboutSection = () => {
         animate={isInView ? { x: 0, opacity: 1 } : { x: 100, opacity: 0 }}
         transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
       >
-        <div className="transform -translate-x-32 w-80 h-80 sm:w-84 sm:h-64 rounded-full overflow-hidden border-4 border-pink-500 shadow-[0_0_30px_10px_rgba(236,72,153,0.5)]">
+        <div className=" w-80 h-80 sm:w-84 sm:h-64 rounded-full overflow-hidden border-4 border-pink-500 shadow-[0_0_30px_10px_rgba(236,72,153,0.5)]">
           <img
             src={profileImage}
             alt="Profile"
