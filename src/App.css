@@ -1,0 +1,16 @@
+
+.list {
+
+  text-decoration: none;
+
+}
+
+.border-box {
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+  border: 5px solid #8a2be2; /* Neon Purple Border */
+  border-radius: 15px;
+  box-shadow: 0 0 15px #8a2be2, 0 0 25px #8a2be2; /* Glowing Effect */
+  background-color: #111; /* Dark Background */
+}
