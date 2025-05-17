@@ -35,7 +35,6 @@ const skills = [
 const certificates = [
   { title: "ReactJS Certification", issuer: "Udemy" },
   { title: "JavaScript Mastery", issuer: "Coursera" },
-  { title: "NodeJS Backend", issuer: "LinkedIn Learning" },
 ];
 
 const ShowcaseSection = () => {
@@ -89,25 +88,32 @@ const ShowcaseSection = () => {
             <div className="bg-white text-black rounded-xl shadow-lg p-6">
               <h3 className="text-xl font-bold mb-2">ABIS</h3>
               <p className="text-sm">
-                Brief description of the project goes here.
+                ABIS is a comprehensive cost management and accounting
+                application designed to optimize financial tracking and
+                reporting for production industries.
               </p>
             </div>
             <div className="bg-white text-black rounded-xl shadow-lg p-6">
               <h3 className="text-xl font-bold mb-2">Pricing</h3>
               <p className="text-sm">
-                Brief description of the project goes here.
+                The Pricing Management System is a robust application designed
+                to optimize pricing strategies and track pricing performance
+                across various product lines and markets.
               </p>
             </div>
             <div className="bg-white text-black rounded-xl shadow-lg p-6">
-              <h3 className="text-xl font-bold mb-2">Salary Management</h3>
+              <h3 className="text-xl font-bold mb-2">Expense Management</h3>
               <p className="text-sm">
-                Brief description of the project goes here.
+                Expense management tracks and controls business spending,
+                helping to optimize budgets and improve financial transparency.
               </p>
             </div>
             <div className="bg-white text-black rounded-xl shadow-lg p-6">
               <h3 className="text-xl font-bold mb-2">Admin Portal</h3>
               <p className="text-sm">
-                Brief description of the project goes here.
+                Track and manage employee activities in real-time to boost
+                productivity, ensure accountability, and streamline workflow
+                monitoring.
               </p>
             </div>
           </div>

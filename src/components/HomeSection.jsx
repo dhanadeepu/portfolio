@@ -15,9 +15,9 @@ const HomeSection = () => {
         transition={{ duration: 1 }}
       >
         <p className="text-center font-bold text-3xl sm:text-4xl md:text-5xl text-white leading-snug">
-          This is My <br />
+          Welcome To My <br />
           <span className="text-purple-500 font-black tracking-tight">
-            Portfolio Website
+            Portfolio Website !
           </span>
         </p>
       </motion.div>

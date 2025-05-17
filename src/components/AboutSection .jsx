@@ -36,7 +36,7 @@ const AboutSection = () => {
               {tech}
             </span>
           ))}
-        </div>arana
+        </div>
 
         <a
           href="mailto:dhanadeepu77@gmail.com?subject=Let's%20Book%20a%20Call&body=Hi%20Deepak,%0AI'd%20like%20to%20schedule%20a%20call%20with%20you."
