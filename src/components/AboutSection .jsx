@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { Github, Linkedin } from "lucide-react";
-import profileImage from "../assets/3.jpg";
+import profileImage from "../assets/dev1.jpg";
 
 const AboutSection = () => {
   const ref = useRef(null);
@@ -36,11 +36,14 @@ const AboutSection = () => {
               {tech}
             </span>
           ))}
-        </div>
+        </div>arana
 
-        <button className="bg-purple-600 hover:bg-purple-700 transition text-white px-6 py-2 rounded-full text-sm sm:text-base">
+        <a
+          href="mailto:dhanadeepu77@gmail.com?subject=Let's%20Book%20a%20Call&body=Hi%20Deepak,%0AI'd%20like%20to%20schedule%20a%20call%20with%20you."
+          className="inline-block bg-purple-600 hover:bg-purple-700 transition text-white px-6 py-2 rounded-full text-sm sm:text-base"
+        >
           Let's Book a Call →
-        </button>
+        </a>
 
         <div className="flex justify-center md:justify-start gap-4 mt-4 text-2xl">
           <a

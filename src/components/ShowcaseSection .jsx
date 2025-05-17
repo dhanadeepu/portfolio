@@ -41,7 +41,7 @@ const certificates = [
 const ShowcaseSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false });
-  const [activeSection, setActiveSection] = useState(null); 
+  const [activeSection, setActiveSection] = useState(null);
 
   return (
     <section
@@ -60,8 +60,9 @@ const ShowcaseSection = () => {
         </h2>
 
         <p className="text-base sm:text-lg text-gray-300">
-          The library provides a component named <strong>LoremIpsum</strong> and
-          a function <strong>loremIpsum</strong> to generate placeholder text.
+          I stay updated with the latest in the web development world — from
+          building reusable React components to integrating APIs that make apps
+          smarter and faster
         </p>
 
         <div className="flex flex-wrap justify-center gap-4 pt-4">
@@ -84,8 +85,7 @@ const ShowcaseSection = () => {
 
         {/* Render Projects */}
         {activeSection === "Project" && (
-            
-          <div  className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 max-w-6xl w-full px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 max-w-6xl w-full px-4">
             <div className="bg-white text-black rounded-xl shadow-lg p-6">
               <h3 className="text-xl font-bold mb-2">ABIS</h3>
               <p className="text-sm">
