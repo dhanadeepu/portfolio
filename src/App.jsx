@@ -8,11 +8,13 @@ import Navbar from "./components/Navbar";
 const App = () => {
   return (
     <>
-      <Navbar />
-      <HomeSection />
-      <AboutSection />
-      <ContactSection />
-      <ShowcaseSection />
+      <div className="overflow-x-hidden">
+        <Navbar />
+        <HomeSection />
+        <AboutSection />
+        <ContactSection />
+        <ShowcaseSection />
+      </div>
     </>
   );
 };
