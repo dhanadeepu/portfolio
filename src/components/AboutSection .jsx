@@ -28,7 +28,7 @@ const AboutSection = () => {
         </p>
 
         <div className="flex flex-wrap justify-center md:justify-start gap-2">
-          {["HTML", "CSS", "JavaScript", "ReactJs"].map((tech) => (
+          {["HTML", "CSS", "BootStrap", "JavaScript", "ReactJs"].map((tech) => (
             <span
               key={tech}
               className="bg-gray-700 px-3 py-1 rounded-full text-sm"
