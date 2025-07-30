@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar";
 const App = () => {
   return (
     <>
-      <div >
+      <div className="overflow-x-hidden">
         <Navbar />
         <HomeSection />
         <AboutSection />
