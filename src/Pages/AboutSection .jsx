@@ -11,7 +11,7 @@ const AboutSection = () => {
     <section
       id="about"
       ref={ref}
-      className="min-h-screen flex flex-col md:flex-row items-center justify-between bg-gradient-to-b from-black to-gray-900 px-4 sm:px-10 md:px-20 py-16 gap-10"
+      className="min-h-screen flex flex-col overflow-hidden md:flex-row items-center justify-between bg-gradient-to-b from-black to-gray-900 px-4 sm:px-10 md:px-20 py-16 gap-10"
     >
       <motion.div
         className="text-white space-y-6 max-w-md text-center md:text-left"
