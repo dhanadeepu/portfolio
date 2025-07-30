@@ -31,7 +31,7 @@ const ContactSection = () => {
 
         <div className="flex gap-4 flex-wrap justify-center">
           <a
-            href="/Deepak J.pdf"
+            href="/DeepakJ_Resume.pdf"
             download
             className="transition text-white px-6 py-2 rounded-full text-sm sm:text-base hover:opacity-90"
             style={{
@@ -41,8 +41,6 @@ const ContactSection = () => {
           >
             Download CV
           </a>
-
-      
         </div>
       </motion.div>
     </section>
